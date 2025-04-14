@@ -1,4 +1,4 @@
-@media (max-width:1800px) and (min-width:600px){
+@media (max-width:1800px) and (min-width:450px){
 html{
     background-image: url(./images/back.jpg);
     
@@ -11,17 +11,18 @@ html{
     
 h1{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 0;
     padding: 0;
     position: relative;
 }
 p{
-    font-size: 3.5rem;
+    font-size: 3rem;
+    width: 65%;
     display: inline-block;
     position: absolute;
     top: 15%;
-    width: 99%;
+    left:21%
 }
 h2{
     font-size: 1rem;
